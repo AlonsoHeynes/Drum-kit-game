@@ -1,6 +1,15 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #525252;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .55;
+  overflow: hidden;
 }
 
 h1 {
@@ -12,6 +21,7 @@ h1 {
 }
 
 footer {
+  margin-top: 350px;
   color: #DBEDF3;
   font-family: sans-serif;
 }
